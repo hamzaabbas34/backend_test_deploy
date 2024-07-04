@@ -1,15 +1,16 @@
 {
-  "name": "nodejs_for_vercel",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2",
-    "nodemon": "^3.1.4"
-  }
+	"name": "nodejs_for_vercel",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js",
+		"build": "echo 'No build step necessary for Express app'"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.2",
+		"nodemon": "^3.1.4"
+	}
 }
